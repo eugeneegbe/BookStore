@@ -38,7 +38,7 @@ class Request
 
     }
 
-    public function getPath(){]
+    public function getPath(){
 
         return $this->path;
 

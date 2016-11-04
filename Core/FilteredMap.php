@@ -21,12 +21,12 @@ class FilteredMap
 
     }
 
-    public function has( string $name){
+    public function has($name){
 
         return isset($this->map[$name]);
     }
 
-    public function get(string $name){
+    public function get($name){
 
         if($this->map[$name] != null){
             return $this->map[$name];
@@ -36,5 +36,20 @@ class FilteredMap
 //    now we have to add methods that will prevent our validation to go smoothly
 //     like intergers strings and numbers
 
-    public  function 
+    public  function getInt($name){
+
+        return (int) $this->get($name);
+
+    }
+
+    public  function getNumber($name){
+
+        return (float) $this->get($name);
+    }
+
+    public	function	getString($name,	$filter	=true)	{
+
+        $value	=	(string)	$this->get($name);
+        return	$filter	?	addslashes($value)	:	$value;
+    }
 }
