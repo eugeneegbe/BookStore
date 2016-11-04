@@ -42,13 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            <state relative-caret-position="54">
+              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilteredMap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Core/FilteredMap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
-                <element signature="e#7#88#0#PHP" expanded="true" />
+                <element signature="e#6#168#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +70,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Core/Request.php" />
+        <option value="$PROJECT_DIR$/Core/FilteredMap.php" />
       </list>
     </option>
   </component>
@@ -178,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478268008841</updated>
-      <workItem from="1478268016589" duration="2627000" />
+      <workItem from="1478268016589" duration="3516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2627000" />
+    <option name="totallyTimeSpent" value="3516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -234,10 +245,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        <state relative-caret-position="54">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/FilteredMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
-            <element signature="e#7#88#0#PHP" expanded="true" />
+            <element signature="e#6#168#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
