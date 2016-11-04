@@ -13,10 +13,13 @@ class Request
     const GET = 'GET';
     const POST = 'POST';
 
+
     private $domain;
     private  $path;
     private  $method;
 
+    private $params;
+    private $cookies;
 
     public function __construct()
     {
@@ -58,4 +61,22 @@ class Request
 
         return $this->method === self::GET;
     }
+
+    //these are the methods we use to test the request class
+
+    public function getParams(){
+
+        return $this->params;
+
+    }
+
+    public function getCoookies(){
+
+        return $this->cookies;
+    }
+
 }
+
+//A typicall use to get say price will be
+// $price	=	$request->getParams()->getNumber('price');
+// getting them from the request class and then filtering it
