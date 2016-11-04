@@ -38,6 +38,24 @@ class Request
 
     }
 
-    public function
+    public function getPath(){]
 
+        return $this->path;
+
+    }
+
+    public function getMethod(){
+
+        return $this->method;
+    }
+
+    public function isPost(){
+
+        return $this->method === self::POST;
+    }
+
+    public function isGet(){
+
+        return $this->method === self::GET;
+    }
 }
