@@ -1,0 +1,33 @@
+{
+    "require": {
+        "monolog/monolog": "^1.21",
+        "twig/twig": "^1.27"
+    },
+
+    "autoload":{
+
+    		"prs-4": {
+
+    			"Bookstore\\" : "src"
+    		}
+    }
+
+
+    {
+		
+				"name":	"php-projects/Bookstore",
+				"description":	"Manages	an	online	bookstore.",
+				"minimum-stability":	"stable",
+				"license":	"Apache-2.0",
+				"type":	"project",
+				"authors":	[
+								{
+									"name":	"Egbe Eugene",
+									"email":	"agboreugene@gmail.com"
+								}
+				],
+				//	...
+}
+
+	}
+
